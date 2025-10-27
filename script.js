@@ -58,7 +58,25 @@
 // select button
 // const button = document.getElementById("button");
 // event handler
-function hello(){
-    console.log("Hello World");
-}
- button.addEventListener("click", hello);
+// function hello(){
+//     console.log("Hello World");
+// }
+//  button.addEventListener("click", hello);
+
+//  let x = 5;
+//  let y = 6;
+
+//  x = y;
+//  y = 7;
+//  console.log(x);
+//  console.log(y);
+ 
+ let a = ["js", "python"];
+ let b = ["Html", "css"];
+
+ b = a;
+
+ console.log(a);
+ console.log(b);
+ a.push("Go");
+ console.log(a);
