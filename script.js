@@ -55,9 +55,10 @@
 // }
 
 // hello()();
-
+// select button
+// const button = document.getElementById("button");
 // event handler
 function hello(){
-    console.log("Hello World")
+    console.log("Hello World");
 }
- 
+ button.addEventListener("click", hello);
