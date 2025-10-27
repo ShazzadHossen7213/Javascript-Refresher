@@ -71,12 +71,23 @@
 //  console.log(x);
 //  console.log(y);
  
- let a = ["js", "python"];
- let b = ["Html", "css"];
+//  let a = ["js", "python"];
+//  let b = ["Html", "css"];
 
- b = a;
+//  b = a;
 
- console.log(a);
- console.log(b);
- a.push("Go");
- console.log(a);
+//  console.log(a);
+//  console.log(b);
+//  a.push("Go");
+//  console.log(a);
+
+// Array methods
+
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+
+// const result = fruits.findIndex((f) => f === "Orange" || f === "Mango" ); // find Method
+// const result = fruits.filter((f) => f === "Orange" || f === "Mango" );
+
+const result = fruits.slice(2, 4);
+console.log(result); 
+console.log(fruits); 
