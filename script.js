@@ -88,6 +88,8 @@ const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // const result = fruits.findIndex((f) => f === "Orange" || f === "Mango" ); // find Method
 // const result = fruits.filter((f) => f === "Orange" || f === "Mango" );
 
-const result = fruits.slice(2, 4);
+// const result = fruits.slice(2, 4);
+// const result = fruits.splice(2, 2);
+const result = fruits.concat("pinaple", "green Apple");
 console.log(result); 
 console.log(fruits); 
