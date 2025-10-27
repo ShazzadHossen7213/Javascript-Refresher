@@ -57,4 +57,7 @@
 // hello()();
 
 // event handler
+function hello(){
+    console.log("Hello World")
+}
  
